@@ -899,7 +899,7 @@ export interface ListadoDatos {
   bookingId?: number;
   firstName?: string;
   lastName?: string;
-  bookingTime?: number;
+  bookingTime?: Date;
   streetAddress?: string;
   bookingPrice?: number;
 }

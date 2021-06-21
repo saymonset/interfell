@@ -90,7 +90,23 @@ export class BookingService {
           listadoDato.firstName = firstName;
           listadoDato.lastName = lastName;
           listadoDato.streetAddress = streetAddress;
-          listadoDato.bookingTime = bookingTime;
+       
+          
+
+          let num : number = 0;
+          if (bookingTime){
+             num  = (bookingTime) || 0;
+          }
+          
+          // const d1 = new Date(+);
+
+          // console.log('Fecha:',d1);
+          
+          const d2 = new Date(num);
+
+          listadoDato.bookingTime = d2;
+
+
           listadoDato.bookingPrice = bookingPrice;
 
           listadoDatos.push(listadoDato);
