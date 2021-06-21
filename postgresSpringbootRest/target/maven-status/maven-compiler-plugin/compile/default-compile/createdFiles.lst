@@ -1,0 +1,7 @@
+com\interfell\model\CalculoHora.class
+com\interfell\SpringBootJpaPostgresqlApplication.class
+com\interfell\dto\CalculoHora.class
+com\interfell\rest\CalculoHoraRest.class
+com\interfell\spring\service\CalculoHoraService.class
+com\interfell\spring\service\impl\CalculoHoraServiceImpl.class
+com\interfell\repository\CalculoHoraRepository.class

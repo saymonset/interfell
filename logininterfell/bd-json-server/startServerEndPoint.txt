@@ -1,0 +1,6 @@
+  
+  #Ejecutar en console
+
+  json-server --watch usuarioResponse.json
+
+  http://localhost:3000/body 
