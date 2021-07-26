@@ -39,7 +39,7 @@ public class CalculoHoraRest {
 
 
 
-	//@PostMapping("/tutorials")
+	//@PostMapping("/tutdddddddddddddddddsssssssssssssssorials")
 	@RequestMapping(value="/calculaHora", method= RequestMethod.POST, produces=MediaType.APPLICATION_JSON_VALUE)
 	public CalculoHora createTutorial(@RequestBody CalculoHora calculoHora) {
 		try {
